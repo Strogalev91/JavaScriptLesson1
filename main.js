@@ -34,6 +34,15 @@ if (randomNumber < 20) {
 }
 
 //task#5
-/*
-Конструкция Swith/case применяется на строгое равенство и в данном случае не применимо
-*/
+const randomNumber1 = Math.floor(Math.random() * 100);
+console.log(randomNumber1);
+switch(true){
+	case(randomNumber1 < 20) :
+		console.log('randomNumber меньше 20');
+		break;
+	case(randomNumber1 > 50) :
+		console.log('randomNumber больше 50');
+		break;
+	default :
+		console.log('randomNumber больше 20, и меньше 50');
+}
