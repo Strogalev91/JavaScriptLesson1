@@ -8,19 +8,18 @@ let townInfo = {
 console.log(townInfo);
 
 //task#2
-let heigh = 40;
-	width = 70;
+let heigh = 40,
+	width = 70,
 	rectangleArea = heigh * width;
 console.log(rectangleArea);
 
 //task#3
-let time = 2;
-	speedOfFirst = 95;
-	speedOfSecond = 114;
-	distanceOfFirst = speedOfFirst * time;
+let time = 2,
+	speedOfFirst = 95,
+	speedOfSecond = 114,
+	distanceOfFirst = speedOfFirst * time,
 	distanceOfSecond = speedOfSecond * time;
-	distance = distanceOfFirst + distanceOfSecond;
-console.log(distance);
+console.log(distanceOfFirst+distanceOfSecond);
 
 //task#4
 const randomNumber = Math.floor(Math.random() * 100);
